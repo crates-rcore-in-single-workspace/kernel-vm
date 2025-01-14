@@ -16,5 +16,5 @@ log = "0.4"
 #     "kcontext",
 # ] }
 polyhal = {git = "https://github.com/xushanpu123/polyhal.git",features = ["kcontext", "trap", "boot"]}
-kernel-alloc = { path = "../kernel-alloc" }
+kernel-alloc = { git = "https://github.com/crates-rcore-in-single-workspace/kernel-alloc.git" }
 rcore-console = { path = "../console" }
